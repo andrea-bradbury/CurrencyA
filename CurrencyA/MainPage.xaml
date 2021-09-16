@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CurrencyA.MainPage">
+
+    <StackLayout Orientation="Vertical">
+         <Frame>
+            <Grid Margin="1,60,1,1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                  
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                   
+                </Grid.RowDefinitions>
+
+                <!--Total functionality -->
+
+                <Label x:Name="labelFinalTotal" FontSize="Title" Text="Total: " TextColor="#202b11" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="3" Grid.Row="0"/>
+                <Label x:Name="labelFinalTotalAmount"  FontSize="Title" Text="   $ 0.00 " TextColor="#698544"   HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="5" Grid.Row="0" />
+
+
+             </Grid>
+        </Frame>
+
+        <Frame>
+            <Grid Margin="1,1,1,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    
+                </Grid.RowDefinitions>
+
+                <!-- One Dollar functionality -->
+                
+                <Label x:Name="labelOneDollar" FontSize="Title" Text="$1" TextColor="#202b11" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="4" Grid.Row="0" Margin="0,0,0,10" />
+                <Label x:Name="labelOneDollarNumber" FontSize="Body" Text="(0)" TextColor="#698544" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="2"  />
+                <Label x:Name="labelOneDollarTotal" FontSize="Large" Text="$ 0.00" TextColor="#2f3d1c" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="2" />
+
+                <Button x:Name="buttonAddOneDollar" FontSize="Body" Text="+" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="2" Grid.Row="1" Clicked="buttonAddOneDollar_Clicked"  />
+                <Button x:Name="buttonMinusOneDollar" FontSize="Body" Text="-" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Grid.Row="2" Clicked="buttonMinusOneDollar_Clicked"  />
+
+
+                <Button x:Name="buttonOneDollarDown" FontSize="Body" Text="▼" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="3" Grid.Row="2" Clicked="buttonOneDollarDown_Clicked"  />
+
+               
+                
+            </Grid>
+           
+        </Frame>
+                
+        <Frame>
+            <Grid Margin="1,1,1,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!-- 50c functionality -->
+
+                <Label x:Name="labelFiftyCents" FontSize="Title" Text="50c" TextColor="#202b11" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="4" Grid.Row="0" Margin="0,0,0,10" />
+                <Label x:Name="labelFiftyCentsNumber" FontSize="Body" Text="(0)" TextColor="#698544" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="2"  />
+                <Label x:Name="labelFiftyCentsTotal" FontSize="Large" Text="$ 0.00" TextColor="#2f3d1c" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="2" />
+
+                <Button x:Name="buttonAddFiftyCents" FontSize="Body" Text="+" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="2" Grid.Row="1" Clicked="buttonAddFiftyCents_Clicked" />
+                <Button x:Name="buttonMinusFiftyCents" FontSize="Body" Text="-" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Grid.Row="2" Clicked="buttonMinusFiftyCents_Clicked"  />
+
+
+                <Button x:Name="buttonFiftyCentsUp" FontSize="Body" Text="▲" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="3" Grid.Row="1" Clicked="buttonFiftyCentsUp_Clicked"/>
+                <Button x:Name="buttonFiftyCentsDown" FontSize="Body" Text="▼" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="3" Grid.Row="2" Clicked="buttonFiftyCentsDown_Clicked" />
+            </Grid>
+        </Frame>
+
+        <Frame>
+            <Grid Margin="1,1,1,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!-- 10c functionality -->
+
+                <Label x:Name="labelTenCents" FontSize="Title" Text="10c" TextColor="#202b11" HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="4" Grid.Row="0" Margin="0,0,0,10" />
+                <Label x:Name="labelTenCentsNumber" FontSize="Body" Text="(0)" TextColor="#698544" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="2"  />
+                <Label x:Name="labelTenCentsTotal" FontSize="Large" Text=" $ 0.00" TextColor="#2f3d1c"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="2" />
+
+                <Button x:Name="buttonAddTenCents" FontSize="Body" Text="+" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="2" Grid.Row="1" Clicked="buttonAddTenCents_Clicked" />
+                <Button x:Name="buttonMinusTenCents" FontSize="Body" Text="-" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Grid.Row="2"  Clicked="buttonMinusTenCents_Clicked"  />
+
+
+                <Button x:Name="buttonTenCentsUp" FontSize="Body" Text="▲" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="3" Grid.Row="1" Clicked="buttonTenCentsUp_Clicked" />
+                <Button x:Name="buttonTenCentsDown" FontSize="Body" Text="▼" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="3" Grid.Row="2" Clicked="buttonTenCentsDown_Clicked" />
+
+            </Grid>
+        </Frame>
+
+        <Frame>
+            <Grid Margin="1,1,1,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="40" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    
+                </Grid.RowDefinitions>
+
+                
+                <!-- 5c functionality -->
+
+                <Label x:Name="labelFiveCents" FontSize="Title" Text="5c" TextColor="#202b11"  HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Grid.ColumnSpan="4" Grid.Row="0" Margin="0,0,0,10"/>
+                <Label x:Name="labelFiveCentsNumber" FontSize="Body" Text="(0)" TextColor="#698544" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="1" Grid.Row="2"  />
+                <Label x:Name="labelFiveCentsTotal" FontSize="Large" Text="$ 0.00" TextColor="#2f3d1c"  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="0" Grid.Row="2" />
+
+                <Button x:Name="buttonAddFiveCents" FontSize="Body" Text="+" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="2" Grid.Row="1"  Clicked="buttonAddFiveCents_Clicked" />
+                <Button x:Name="buttonMinusFiveCents" FontSize="Body" Text="-" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="2" Grid.Row="2" Clicked="buttonMinusFiveCents_Clicked"   />
+
+
+                <Button x:Name="buttonFiveCentsUp" FontSize="Body" Text="▲" BorderWidth="1" BorderRadius="10" BorderColor="#2f3d1c" HeightRequest="40" TextColor="#2f3d1c" BackgroundColor="#959c8c" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"  Grid.Column="3" Grid.Row="1" Clicked="buttonFiveCentsUp_Clicked" />
+             </Grid>
+        </Frame>
+       
+    </StackLayout>
+
+
+</ContentPage>

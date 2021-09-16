@@ -1,0 +1,15 @@
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/bin/Debug/netstandard2.0/CurrencyA.deps.json
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/bin/Debug/netstandard2.0/CurrencyA.dll
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/bin/Debug/netstandard2.0/ref/CurrencyA.dll
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/bin/Debug/netstandard2.0/CurrencyA.pdb
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/CurrencyA.AssemblyInfoInputs.cache
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/CurrencyA.AssemblyInfo.cs
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/CurrencyA.csproj.CoreCompileInputs.cache
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/CurrencyA.dll
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/ref/CurrencyA.dll
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/CurrencyA.pdb
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/CurrencyA.csproj.AssemblyReference.cache
+/Users/andreabradbury/Projects/CurrencyA/CurrencyA/obj/Debug/netstandard2.0/CurrencyA.GeneratedMSBuildEditorConfig.editorconfig

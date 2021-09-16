@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CHCVigVtC2nXJlqG6YOqoZp2koCD+QZbaciT56nhs/HKh3Tanj47ER1BLml0HMFTpm9OaI6dRAX2bwAEwiK+ow==",
+  "success": true,
+  "projectFilePath": "/Users/andreabradbury/Projects/CurrencyA/CurrencyA.iOS/CurrencyA.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/andreabradbury/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/andreabradbury/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/andreabradbury/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

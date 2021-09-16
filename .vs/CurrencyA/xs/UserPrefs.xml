@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{A1E43977-454D-4ABC-BD72-B6CCA479CB0E}|Default">
+  <MonoDevelop.Ide.ItemProperties.CurrencyA.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CBCE2CBB-D4DD-4F57-8CA7-0398CA040494" />
+  <MonoDevelop.Ide.ItemProperties.CurrencyA.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CurrencyA/Models/Wallet.cs">
+    <Files>
+      <File FileName="CurrencyA/Models/Wallet.cs" Line="11" Column="1" />
+      <File FileName="CurrencyA/MainPage.xaml.cs" />
+      <File FileName="CurrencyA/MainPage.xaml" />
+      <File FileName="CurrencyA.iOS/Main.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CurrencyA" expanded="True">
+            <Node name="CurrencyA" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Wallet.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="CurrencyA.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
